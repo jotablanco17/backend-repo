@@ -18,7 +18,6 @@ class NotesManager {
         } catch (error) {
             console.log(error);
         }
-
     }
 
     read() {

@@ -8,17 +8,6 @@ function calcular(n1, n2 , operacion) {
     return resultadoOp
 }
 
-
-function verificarDivisiom(error, exito) {
-    if (error) {
-        console.log('ocurrio un error');
-        return error;
-    } else {
-        return exito;
-    }
-}
-
-
 // con promesa
 function dividir(n1, n2) {
     return new Promise((resolve, reject) => {
@@ -30,9 +19,10 @@ function dividir(n1, n2) {
     })
 }
 
-calcular(2, 2, sumar)
-calcular(4, 2, restar)
-calcular(4, 2, multiplicar)
+console.log(calcular(2, 2, sumar));
+console.log(calcular(4, 2, restar));
+console.log(calcular(4, 2, multiplicar));
+
 
 calcular(100, 10, dividir)
 .then((res)=>console.log(res))
