@@ -10,9 +10,9 @@ fs.promises.writeFile(ruta, contenido)
 
 
 fs.promises.readFile(ruta, 'utf-8')
-.then((respuesta)=>console.log(respuesta))
+.then((respuesta)=>console.log(JSON.parse(respuesta)))
 .catch((error)=> console.log(error))
 
 //fs.promises.unlink(ruta)
-.then((resp)=>console.log('se borro'))
+.then(()=>console.log('se borro'))
 .catch((errorazo)=> errorazo)
