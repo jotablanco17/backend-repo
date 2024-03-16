@@ -1,0 +1,82 @@
+[
+    {
+      "id": "b85747797016a872a0b3ff0b",
+      "photo": "hneumatico.png",
+      "title": "neumaticos",
+      "category": "autos",
+      "price": 250,
+      "stock": 38
+    },
+    {
+      "id": "43010e40c8d4cb87ee3ea1e3",
+      "photo": "motor.png",
+      "title": "motor",
+      "category": "autos",
+      "price": 500,
+      "stock": 10
+    },
+    {
+      "id": "1c257a3de3650369bf7ca6ea",
+      "photo": "caja.png",
+      "title": "caja",
+      "category": "cajas",
+      "price": 300,
+      "stock": 20
+    },
+    {
+      "id": "d65f93848ede73a806ca0305",
+      "photo": "",
+      "title": "silla",
+      "category": "muebles",
+      "price": 200,
+      "stock": 38
+    },
+    {
+      "id": "9570bdc7edd965f4ff21a898",
+      "photo": "sillon.png",
+      "title": "sillon",
+      "category": "Muebles",
+      "price": 150,
+      "stock": 15
+    },
+    {
+      "id": "9164827c6bb392de4c607bec",
+      "photo": "remer.png",
+      "title": "remera",
+      "category": "ropa",
+      "price": 70,
+      "stock": 38
+    },
+    {
+      "id": "fc8a17a8a3efc1a1a7ba0f44",
+      "photo": "medias.png",
+      "title": "media",
+      "category": "ropa",
+      "price": 20,
+      "stock": 18
+    },
+    {
+      "id": "4021173c448d6950cc7dc469",
+      "photo": "",
+      "title": "abrigo",
+      "category": "ropa",
+      "price": 40,
+      "stock": 50
+    },
+    {
+      "id": "6da43d8339055b499c3b45fa",
+      "photo": "guitarra.png",
+      "title": "gitarra",
+      "category": "instrumento",
+      "price": 30,
+      "stock": 12
+    },
+    {
+      "id": "9086a28bfdb92ab7fcb60f76",
+      "photo": "",
+      "title": "celular",
+      "category": "electronicos",
+      "price": 1200,
+      "stock": 10
+    }
+  ]
