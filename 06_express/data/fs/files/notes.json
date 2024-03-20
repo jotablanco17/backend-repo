@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2c2c6310b9754944a1c616de",
+    "text": "hola",
+    "category": "saludo",
+    "date": "2024-03-20T05:32:37.826Z"
+  },
+  {
+    "id": "1613b5ca4920c6c479020863",
+    "text": "chau",
+    "category": "despido",
+    "date": "2024-03-20T05:32:37.840Z"
+  },
+  {
+    "id": "650a0d91d0b71b90cec13829",
+    "text": "no",
+    "category": "orden",
+    "date": "2024-03-20T05:32:37.844Z"
+  },
+  {
+    "id": "ac3e5e68547173122cac7dc4",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:44.200Z"
+  },
+  {
+    "id": "089399c2fe901e720d8b864e",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:47.826Z"
+  },
+  {
+    "id": "d7c8da79b958146d35d36c43",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:48.523Z"
+  },
+  {
+    "id": "c45d65355cad4dca3dff3c52",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:49.745Z"
+  },
+  {
+    "id": "6ca32ab78791b5389956523a",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:50.500Z"
+  },
+  {
+    "id": "60a51f88943a734ead4afc02",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:51.375Z"
+  },
+  {
+    "id": "6e311b78a23fd40b2b35d906",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:52.444Z"
+  },
+  {
+    "id": "86c20532fd37b77f6daffb71",
+    "text": "holaaaa",
+    "category": "todo",
+    "date": "2024-03-20T05:52:53.044Z"
+  },
+  {
+    "id": "b03c39814c0c2535d0752614",
+    "text": "mi primera nota",
+    "category": "la rial categoria",
+    "date": "2024-03-20T05:53:08.593Z"
+  }
+]
