@@ -43,7 +43,6 @@ class NotesManager {
         }
     }
 
-
     async readOne(id) {
         try {
             let all = await fs.promises.readFile(this.path, 'utf-8')
@@ -52,26 +51,36 @@ class NotesManager {
             if (!one) {
                 throw new Error('no se encontro el id')
             } else {
-                console.log(one);
+                return one; // Devuelve la nota encontrada
             }
         } catch (error) {
-            console.log(error);
+            throw error; // Lanza el error para manejarlo en el controlador de Express.js
         }
     }
-    async read() {
+    
+    async read(cat = 'to do') {
         try {
             let all = await fs.promises.readFile(this.path, 'utf-8')
             all = JSON.parse(all)
-            if (!all) {
-                throw new Error('no existe')
+    
+            if (!cat || cat === 'to do') {
+                console.log(all); // Imprime todas las notas en la consola
+                return all; // Devuelve todas las notas si no se proporciona ninguna categoría o si la categoría es "to do"
             } else {
-                console.log(all);
+                const filtered = all.filter((el) => el.category === cat);
+                if (filtered.length === 0) {
+                    return null; // Devuelve null si no se encuentran notas para la categoría proporcionada
+                } else {
+                    console.log(filtered); // Imprime las notas filtradas en la consola
+                    return filtered;
+                }
             }
         } catch (error) {
             console.log(error);
+            return null;
         }
     }
-
+    
     async destroyid(id){
         try {
             let all = await fs.promises.readFile(this.path, 'utf-8')
